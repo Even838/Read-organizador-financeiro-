@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle Financeiro</title>
+  <script src="/main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+  <div id="app">
+    <h1>  read Controle Financeiro</h1>
+    <input type="text" id="description" placeholder="Descrição">
+    <input type="number" id="amount" placeholder="Valor (R$)">
+    <button onclick="addTransaction()">Registrar</button>
+    <div id="transactionsList"></div>
+    <p>Total: <span id="totalAmount">R$ 0.00</span></p>
+    
+    <p id="in"></p>
+    
+  </div>
+
